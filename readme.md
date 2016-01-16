@@ -7,7 +7,7 @@ J'ai trouvé mon bonheur sur le Github de <a href="https://github.com/brian3kb/g
 
 ### Compilation
 
-This produces `graham_scan.min.js`:
+Les commandes suivantes créées le fichier `graham_scan.min.js`:
 
 	npm install
 	grunt build
@@ -25,10 +25,13 @@ On fait difficilement plus simple :
     // Creation d'une instance
     var aConvexHull = new ConvexHullGrahamScan();
 
-    // Ajout des points (avec une étiquette optionnelle), point par point
-    aConvexHull.addPoint(x, y, "étiquette du point");
-
+    // Ajout des points point par point, avec une étiquette optionnelle 
+    aConvexHull.addPoint(coordonnée x, coordonnée y, étiquette du point);
+    ex: aConvexHull.addPoint(1.5, 3.1);
+    ex: aConvexHull.addPoint(1.6, 3.2, "mon point");
+    
     // Calcul du tableau des points qui forment l'enveloppe convexe
+    // Le tableau est au format JSON : [{x: coordonnée x, y: coordonnée y, name: étiquette du point }, ...]
     var hullPoints = convexHull.getHull();
 
     
