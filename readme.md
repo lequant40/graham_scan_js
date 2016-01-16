@@ -7,7 +7,7 @@ J'ai trouvé mon bonheur sur le Github de <a href="https://github.com/brian3kb/g
 
 ### Téléchargement
 
-Le code source minifié est disponible en téléchargement direct <a href="raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js">ici</a>.
+Le code source minifié est disponible en téléchargement direct <a href="http://raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js">ici</a>.
 
 
 ### Compilation
