@@ -12,9 +12,9 @@
     "qunit-lib"
   ],
   "keywords": [
-    "enveloppe",
-    "convexe",
-	"graham"
+    "convex",
+    "hull",
+    "graham"
   ],
   "authors": [
 	 "Brian Barnett <brian@3kb.co.uk>",
