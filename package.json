@@ -5,12 +5,12 @@
   "license": "MIT",
   "directories": {
     "lib": "src",
-    "test": "test"
+    "test": "tests"
   },
   "keywords": [
-    "enveloppe",
-    "convexe",
-	"graham"
+    "convex",
+    "hull",
+    "graham"
   ],
   "repository": {
     "type": "git",
