@@ -5,6 +5,11 @@ Pour une utilisation sur mon blog <a href="http://www.lequant40.com/2016/01/etat
 J'ai trouvé mon bonheur sur le Github de <a href="https://github.com/brian3kb/graham_scan_js" target="_blank">brian3kb</a>, mais il manquait la possibilité de gérer des points avec des étiquettes, ce que j'ai rajouté ici.
 
 
+### Téléchargement
+
+Le code source minifié est disponible en téléchargement direct <a href="raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js">ici</a>.
+
+
 ### Compilation
 
 Les commandes suivantes créées le fichier `graham_scan.min.js`:
@@ -20,7 +25,7 @@ Le code source est testé avec qUnit, les tests sont exécutés avec Google JS T
 
 ### Utilisation
 
-On fait difficilement plus simple :
+Difficilement plus simple :
 
     // Creation d'une instance
     var aConvexHull = new ConvexHullGrahamScan();
