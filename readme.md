@@ -44,4 +44,4 @@ On fait difficilement plus simple :
 
 ### License
 
-MIT License
+<a href="https://fr.wikipedia.org/wiki/Licence_MIT" target=_blank">License MIT</a>
