@@ -26,9 +26,9 @@ On fait difficilement plus simple :
     var aConvexHull = new ConvexHullGrahamScan();
 
     // Ajout des points point par point, avec une étiquette optionnelle 
-    aConvexHull.addPoint(coordonnée x, coordonnée y, étiquette du point);
-    ex: aConvexHull.addPoint(1.5, 3.1);
-    ex: aConvexHull.addPoint(1.6, 3.2, "mon point");
+    // La méthode à appeler est addPoint(coordonnée x, coordonnée y, étiquette du point)
+    aConvexHull.addPoint(1.5, 3.1);
+    aConvexHull.addPoint(1.6, 3.2, "mon point");
     
     // Calcul du tableau des points qui forment l'enveloppe convexe
     // Le tableau est au format JSON : [{x: coordonnée x, y: coordonnée y, name: étiquette du point }, ...]
