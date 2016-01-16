@@ -39,7 +39,6 @@ On fait difficilement plus simple :
 
 * https://fr.wikipedia.org/wiki/Enveloppe_convexe
 * https://fr.wikipedia.org/wiki/Parcours_de_Graham
-* http://www.personal.kent.edu/~rmuhamma/Compgeometry/MyCG/ConvexHull/GrahamScan/grahamScan.htm
 
 
 ### License
