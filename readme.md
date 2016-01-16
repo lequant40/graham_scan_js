@@ -2,7 +2,7 @@
 
 Pour une utilisation sur mon blog <a href="http://www.lequant40.com/2016/01/etat-des-principaux-indices-boursiers_14.html" target="_blank">Le Quant 40</a> avec la librairie <a href="http://www.highcharts.com/" target="_blank">Highcharts</a>, j'avais besoin d'une implémentation en JavaScript d'un algorithme de calcul de l'enveloppe convexe d'un ensemble de points, si possible simple et rapide (parcours de Graham donc...).
 
-J'ai trouvé mon bonheur sur le Github de <a href="https://github.com/brian3kb/graham_scan_js" target="_blank">brian3kb(</a>, mais il manquait la possibilité de gérer des points avec des étiquettes, ce que j'ai rajouté ici.
+J'ai trouvé mon bonheur sur le Github de <a href="https://github.com/brian3kb/graham_scan_js" target="_blank">brian3kb</a>, mais il manquait la possibilité de gérer des points avec des étiquettes, ce que j'ai rajouté ici.
 
 
 ### Compilation
