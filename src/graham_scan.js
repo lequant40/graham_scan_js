@@ -2,7 +2,8 @@
  * Graham's Scan Convex Hull Algorithm
  * @desc An implementation of the Graham's Scan Convex Hull algorithm in JavaScript.
  * @author Brian Barnett, brian@3kb.co.uk, http://brianbar.net/ || http://3kb.co.uk/
- * @version 1.0.3
+ * @author Roman Rubsamen, roman.rubsamen@gmail.com
+ * @version 1.0
  */
 function ConvexHullGrahamScan() {
     this.anchorPoint = undefined;
@@ -14,9 +15,10 @@ ConvexHullGrahamScan.prototype = {
 
     constructor: ConvexHullGrahamScan,
 
-    Point: function (x, y) {
+    Point: function (x, y, name) {
         this.x = x;
         this.y = y;
+		this.name = name;
     },
 
     _findPolarAngle: function (a, b) {
@@ -43,11 +45,11 @@ ConvexHullGrahamScan.prototype = {
         return angle;
     },
 
-    addPoint: function (x, y) {
+    addPoint: function (x, y, name) {
         //Check to see if anchorPoint has been defined yet.
         if (this.anchorPoint === undefined) {
             //Create new anchorPoint.
-            this.anchorPoint = new this.Point(x, y);
+            this.anchorPoint = new this.Point(x, y, name);
             return;
             // Sets anchorPoint if point being added is further left.
         } else if (
@@ -55,12 +57,12 @@ ConvexHullGrahamScan.prototype = {
             (this.anchorPoint.y === y && this.anchorPoint.x > x) ||
             (this.anchorPoint.y > y && this.anchorPoint.x === x)
         ) {
-            this.points.push(new this.Point(this.anchorPoint.x, this.anchorPoint.y));
-            this.anchorPoint = new this.Point(x, y);
+            this.points.push(new this.Point(this.anchorPoint.x, this.anchorPoint.y, this.anchorPoint.name));
+            this.anchorPoint = new this.Point(x, y, name);
             return;
         }
 
-        this.points.push(new this.Point(x, y));
+        this.points.push(new this.Point(x, y, name));
     },
 
     _sortPoints: function () {

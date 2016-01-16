@@ -10,22 +10,19 @@ J'ai trouvé mon bonheur sur le Github de <a href="https://github.com/brian3kb/g
 Le code source minifié est disponible en téléchargement direct <a href="http://raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js">ici</a>.
 
 
-### Compilation
+### Compilation et tests
 
-Les commandes suivantes créées le fichier `graham_scan.min.js`:
+Les commandes suivantes créées le fichier minifié `graham_scan.min.js` et exécutent les tests unitaires avec QUnit:
 
 	npm install
-	grunt build
+	grunt deliver
 
-
-### Tests
-
-Le code source est testé avec qUnit, les tests sont exécutés avec Google JS Test Driver.
+Le fichier de tests QUnit est situé dans `tests/index.html`.
 
 
 ### Utilisation
 
-Difficilement plus simple :
+On fait difficilement plus simple :
 
     // Creation d'une instance
     var aConvexHull = new ConvexHullGrahamScan();
@@ -33,7 +30,7 @@ Difficilement plus simple :
     // Ajout des points point par point, avec une étiquette optionnelle 
     // La méthode à appeler est addPoint(coordonnée x, coordonnée y, étiquette du point)
     aConvexHull.addPoint(1.5, 3.1);
-    aConvexHull.addPoint(1.6, 3.2, "mon point");
+    aConvexHull.addPoint(1.6, 3.2, 'mon point');
     
     // Calcul du tableau des points qui forment l'enveloppe convexe
     // Le tableau est au format JSON : [{x: coordonnée x, y: coordonnée y, name: étiquette du point }, ...]

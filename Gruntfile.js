@@ -1,10 +1,13 @@
 module.exports = function(grunt) {
   var path = require('path');
 
+  //
+  grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.initConfig({
-
+    pkg: grunt.file.readJSON('package.json'),
+	
     uglify: {
       options: {
         preserveComments: function (info, comment) {
@@ -17,12 +20,19 @@ module.exports = function(grunt) {
           'graham_scan.min.js': path.join('src', 'graham_scan.js')
         }
       }
+    },
+	
+	qunit: { 
+      all: ['tests/index.html']
     }
 
   });
 
-  grunt.registerTask('build', 'Builds the app into a distributable package.', function() {
+  //
+  grunt.registerTask('deliver', 'Builds the app into a distributable package and tests it.', function() {
     grunt.task.run('uglify:graham_scan');
+	grunt.task.run('qunit');
   });
+
 
 };
