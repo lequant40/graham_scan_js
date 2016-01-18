@@ -7,12 +7,12 @@ J'ai trouvé mon bonheur sur le Github de <a href="https://github.com/brian3kb/g
 
 ### Téléchargement
 
-Le code source minifié est disponible en téléchargement direct <a href="http://raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js">ici</a>.
+Le code source minifié pour utilisation dans un navigateur est disponible en téléchargement direct <a href="http://raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js">ici</a>.
 
 
 ### Compilation et tests
 
-Les commandes suivantes créées le fichier minifié `graham_scan.min.js` et exécutent les tests unitaires avec QUnit:
+Les commandes suivantes créées le fichier minifié `graham_scan.min.js` et exécutent les tests unitaires avec QUnit :
 
 	npm install
 	grunt deliver
