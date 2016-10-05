@@ -3,14 +3,14 @@
 
 ## Calcul de l'enveloppe convexe d'un ensemble de points du plan par parcours de Graham en JavaScript
 
-Pour une utilisation sur mon blog <a href="http://www.lequant40.com/2016/01/etat-des-principaux-indices-boursiers_14.html" target="_blank">Le Quant 40</a> avec la librairie <a href="http://www.highcharts.com/" target="_blank">Highcharts</a>, j'avais besoin d'une implémentation en JavaScript d'un algorithme de calcul de l'enveloppe convexe d'un ensemble de points du plan, si possible simple et rapide (parcours de Graham donc...).
+Pour une utilisation sur mon blog [Le Quant 40](http://www.lequant40.com/2016/01/etat-des-principaux-indices-boursiers_14.html) avec la librairie [Highcharts](http://www.highcharts.com/), j'avais besoin d'une implémentation en JavaScript d'un algorithme de calcul de l'enveloppe convexe d'un ensemble de points du plan, si possible simple et rapide (parcours de Graham donc...).
 
-J'ai trouvé mon bonheur sur le Github de <a href="https://github.com/brian3kb/graham_scan_js" target="_blank">brian3kb</a>, mais il manquait la possibilité de gérer des points avec des étiquettes, ce que j'ai rajouté ici.
+J'ai trouvé mon bonheur sur le Github de [brian3kb](https://github.com/brian3kb/graham_scan_js), mais il manquait la possibilité de gérer des points avec des étiquettes, ce que j'ai rajouté ici.
 
 
 ### Téléchargement
 
-Le code source minifié pour utilisation dans un navigateur est disponible en téléchargement direct <a href="http://raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js">ici</a>.
+Le code source minifié pour utilisation dans un navigateur est disponible en téléchargement direct [ici](http://raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js).
 
 
 ### Compilation et tests
@@ -48,4 +48,4 @@ On fait difficilement plus simple :
 
 ### License
 
-<a href="https://fr.wikipedia.org/wiki/Licence_MIT" target=_blank">License MIT</a>
+[License MIT](https://fr.wikipedia.org/wiki/Licence_MIT)
