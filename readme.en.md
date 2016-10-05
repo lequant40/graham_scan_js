@@ -1,16 +1,13 @@
 ## JavaScript Graham's Scan Convex Hull Algorithm
 
-For usage on my blog <a href="http://www.lequant40.com/2016/01/etat-des-principaux-indices-boursiers_14.html" target="_blank">
-Le Quant 40</a> together with the <a href="http://www.highcharts.com/" target="_blank">Highcharts</a> graphical library, 
-I required a Javascript implementation of a fast algorithm to calculate a convex hull from a set of points in x,y coordinates (Graham's Scan then).
+For usage on my blog [Le Quant 40](http://www.lequant40.com/2016/01/etat-des-principaux-indices-boursiers_14.html) together with the [Highcharts](http://www.highcharts.com/) graphical library, I required a Javascript implementation of a fast algorithm to calculate a convex hull from a set of points in x,y coordinates (Graham's Scan then).
 
-I found what I needed on <a href="https://github.com/brian3kb/graham_scan_js" target="_blank">brian3kb</a>'s Github, although this
-implementation lacked the capability of managing points with labels, which I added.
+I found what I needed on [brian3kb](https://github.com/brian3kb/graham_scan_js)'s Github, although this implementation lacked the capability of managing points with labels, which I added.
 
 
 ### Download
 
-The minified source code, for immediate usage in a browser, is available <a href="http://raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js">here</a>.
+The minified source code, for immediate usage in a browser, is available [here](http://raw.github.com/lequant40/graham_scan_js/master/graham_scan.min.js).
 
 
 ### Building and testing
@@ -47,4 +44,4 @@ Straightforward:
 
 ### License
 
-<a href="https://en.wikipedia.org/wiki/MIT_License" target=_blank">MIT License</a>
+[MIT License](https://en.wikipedia.org/wiki/MIT_License)
