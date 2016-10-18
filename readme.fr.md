@@ -1,6 +1,3 @@
-| [English version](readme.en.md)
-
-
 ## Calcul de l'enveloppe convexe d'un ensemble de points du plan par parcours de Graham en JavaScript
 
 Pour une utilisation sur mon blog [Le Quant 40](http://www.lequant40.com/2016/01/etat-des-principaux-indices-boursiers_14.html) avec la librairie [Highcharts](http://www.highcharts.com/), j'avais besoin d'une implémentation en JavaScript d'un algorithme de calcul de l'enveloppe convexe d'un ensemble de points du plan, si possible simple et rapide (parcours de Graham donc...).
