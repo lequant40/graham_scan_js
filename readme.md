@@ -1,3 +1,5 @@
+| [French version](readme.fr.md)
+
 ## JavaScript Graham's Scan Convex Hull Algorithm
 
 For usage on my blog [Le Quant 40](http://www.lequant40.com/2016/01/etat-des-principaux-indices-boursiers_14.html) together with the [Highcharts](http://www.highcharts.com/) graphical library, I required a Javascript implementation of a fast algorithm to calculate a convex hull from a set of points in x,y coordinates (Graham's Scan then).
